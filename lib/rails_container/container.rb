@@ -9,9 +9,13 @@ module RailsContainer
         @_instance ||= new
       end
 
-      def configure
-        yield instance
+      def configure(&block)
+        instance.instance_eval(&block)
       end
+    end
+
+    def container
+      self.class.instance
     end
   end
 end

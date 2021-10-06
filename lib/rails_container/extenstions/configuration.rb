@@ -1,5 +1,3 @@
-require 'rails_container/container'
-
 module RailsContainer
   module Extenstions
     module Configuration

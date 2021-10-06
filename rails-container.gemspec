@@ -10,11 +10,9 @@ Gem::Specification.new do |spec|
 
   spec.summary = 'Rails container MVP'
   spec.files = Dir['rails-container.gemspec', 'lib/**/*']
-  spec.bindir = 'bin'
-  spec.executables  = []
   spec.require_paths = ['lib']
 
-  spec.add_runtime_dependency 'railties', '~> 7.0.0.alpha2'
+  spec.add_runtime_dependency 'railties', '>= 3.0', '< 7.2'
   spec.add_runtime_dependency 'dry-container', '~> 0.9.0'
 end
 

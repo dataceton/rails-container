@@ -1,7 +1,7 @@
 require 'rails'
 
-require 'rails_container/extensions/rails'
-require 'rails_container/extensions/configuration'
+require 'rails_container/extenstions/rails'
+require 'rails_container/extenstions/configuration'
 
 module RailsContainer
   class Railtie < Rails::Railtie

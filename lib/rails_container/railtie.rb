@@ -6,8 +6,8 @@ require 'rails_container/extenstions/configuration'
 module RailsContainer
   class Railtie < Rails::Railtie
     config.before_configuration do |_app|
-      Rails.include Extensions::Rails
-      Rails::Railtie::Configuration.include Extensions::Configuration
+      Rails.include ::Extenstions::Rails
+      Rails::Railtie::Configuration.include ::Extentsions::Configuration
     end
   end
 end

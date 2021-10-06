@@ -1,5 +1,5 @@
 module RailsContainer
-  module Extenstions
+  module Extensions
     module Configuration
       def container(&block)
         Container.configure &block

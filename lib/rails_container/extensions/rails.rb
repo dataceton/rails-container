@@ -1,5 +1,5 @@
 module RailsContainer
-  module Extenstions
+  module Extensions
     module Rails
       def self.included(base)
         base.extend ClassMethods

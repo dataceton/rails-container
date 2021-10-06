@@ -3,7 +3,7 @@ PATH
   specs:
     rails-container (0.0.1)
       dry-container (~> 0.9.0)
-      railties (~> 7.0.0.alpha2)
+      railties (>= 3.0, < 7.2)
 
 GEM
   remote: https://rubygems.org/
